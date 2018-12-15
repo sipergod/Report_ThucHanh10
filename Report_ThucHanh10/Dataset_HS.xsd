@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dataset_HS" targetNamespace="http://tempuri.org/Dataset_HS.xsd" xmlns:mstns="http://tempuri.org/Dataset_HS.xsd" xmlns="http://tempuri.org/Dataset_HS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dataset_HS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dataset_HS" msprop:Generator_UserDSName="Dataset_HS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="XepLoai" msprop:Generator_TableClassName="XepLoaiDataTable" msprop:Generator_TableVarName="tableXepLoai" msprop:Generator_TablePropName="XepLoai" msprop:Generator_RowDeletingName="XepLoaiRowDeleting" msprop:Generator_RowChangingName="XepLoaiRowChanging" msprop:Generator_RowEvHandlerName="XepLoaiRowChangeEventHandler" msprop:Generator_RowDeletedName="XepLoaiRowDeleted" msprop:Generator_UserTableName="XepLoai" msprop:Generator_RowChangedName="XepLoaiRowChanged" msprop:Generator_RowEvArgName="XepLoaiRowChangeEvent" msprop:Generator_RowClassName="XepLoaiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lop" msprop:Generator_ColumnVarNameInTable="columnLop" msprop:Generator_ColumnPropNameInRow="Lop" msprop:Generator_ColumnPropNameInTable="LopColumn" msprop:Generator_UserColumnName="Lop" type="xs:string" />
+              <xs:element name="SiSo" msprop:Generator_ColumnVarNameInTable="columnSiSo" msprop:Generator_ColumnPropNameInRow="SiSo" msprop:Generator_ColumnPropNameInTable="SiSoColumn" msprop:Generator_UserColumnName="SiSo" type="xs:string" minOccurs="0" />
+              <xs:element name="Gioi" msprop:Generator_ColumnVarNameInTable="columnGioi" msprop:Generator_ColumnPropNameInRow="Gioi" msprop:Generator_ColumnPropNameInTable="GioiColumn" msprop:Generator_UserColumnName="Gioi" type="xs:string" minOccurs="0" />
+              <xs:element name="Kha" msprop:Generator_ColumnVarNameInTable="columnKha" msprop:Generator_ColumnPropNameInRow="Kha" msprop:Generator_ColumnPropNameInTable="KhaColumn" msprop:Generator_UserColumnName="Kha" type="xs:string" minOccurs="0" />
+              <xs:element name="TBinh" msprop:Generator_ColumnVarNameInTable="columnTBinh" msprop:Generator_ColumnPropNameInRow="TBinh" msprop:Generator_ColumnPropNameInTable="TBinhColumn" msprop:Generator_UserColumnName="TBinh" type="xs:string" minOccurs="0" />
+              <xs:element name="Yeu" msprop:Generator_ColumnVarNameInTable="columnYeu" msprop:Generator_ColumnPropNameInRow="Yeu" msprop:Generator_ColumnPropNameInTable="YeuColumn" msprop:Generator_UserColumnName="Yeu" type="xs:string" minOccurs="0" />
+              <xs:element name="Kem" msprop:Generator_ColumnVarNameInTable="columnKem" msprop:Generator_ColumnPropNameInRow="Kem" msprop:Generator_ColumnPropNameInTable="KemColumn" msprop:Generator_UserColumnName="Kem" type="xs:string" minOccurs="0" />
+              <xs:element name="Khoi" msprop:Generator_ColumnVarNameInTable="columnKhoi" msprop:Generator_ColumnPropNameInRow="Khoi" msprop:Generator_ColumnPropNameInTable="KhoiColumn" msprop:Generator_UserColumnName="Khoi" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:XepLoai" />
+      <xs:field xpath="mstns:Lop" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

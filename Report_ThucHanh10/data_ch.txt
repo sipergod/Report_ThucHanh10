@@ -1,0 +1,10 @@
+Admin,1,Chocobie,3,0,01/11/2018
+Admin,2,Bánh kinh đô,2,1,02/11/2018
+Admin,3,Bánh đậu,4,0,02/11/2018
+Admin,4,Sữa đậu nành,5,2,01/11/2018
+Admin,5,Sữa tươi,1,0,01/11/2018
+User,1,Chocobie,3,1,01/11/2018
+User,2,Bánh kinh đô,2,0,01/11/2018
+User,3,Bánh đậu,4,2,02/11/2018
+User,4,Sữa đậu nành,5,0,05/11/2018
+User,5,Sữa tươi,1,0,05/11/2018
