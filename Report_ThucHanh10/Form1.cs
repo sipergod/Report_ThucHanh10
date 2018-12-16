@@ -30,7 +30,7 @@ namespace Report_ThucHanh10
             string lines;
             while ((lines = file.ReadLine()) != null)
             {
-                string[] line = lines.Split(',');
+                string[] line = lines.Split('*');
                 Dataset_HS.XepLoai.Rows.Add(line[1], line[2], line[3], line[4], line[5], line[6], line[7], line[0]);
             }
             file.Close();

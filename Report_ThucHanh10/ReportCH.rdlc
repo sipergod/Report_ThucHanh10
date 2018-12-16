@@ -2,57 +2,6 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
-      <Textbox Name="Textbox1">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Cửa hàng TuMen</Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>36 - Đường Nguyễn Khánh Toàn - Cầu Giấy - Hà Nội</Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>043.822299</Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Height>1.44943cm</Height>
-        <Width>9.08484cm</Width>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Textbox Name="Textbox2">
         <CanGrow>true</CanGrow>
         <KeepTogether>true</KeepTogether>
@@ -62,7 +11,7 @@
               <TextRun>
                 <Value>THỐNG KÊ HÀNG HOÁ BÁN RA THEO NHÂN VIÊN</Value>
                 <Style>
-                  <FontSize>12pt</FontSize>
+                  <FontSize>16pt</FontSize>
                   <FontWeight>Bold</FontWeight>
                 </Style>
               </TextRun>
@@ -73,11 +22,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>1.84312cm</Top>
-        <Left>4.41209cm</Left>
-        <Height>0.62646cm</Height>
-        <Width>10.67562cm</Width>
-        <ZIndex>1</ZIndex>
+        <Top>0.5cm</Top>
+        <Left>2cm</Left>
+        <Height>0.75cm</Height>
+        <Width>17cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -92,19 +40,19 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.55092cm</Width>
+              <Width>1.46873cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.69711cm</Width>
+              <Width>3.61492cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>5.10448cm</Width>
+              <Width>5.02229cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.54245cm</Width>
+              <Width>3.46026cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.516cm</Width>
+              <Width>3.43381cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -490,7 +438,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>MaHang</rd:DefaultName>
@@ -520,7 +470,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>TenHang</rd:DefaultName>
@@ -781,11 +733,11 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>3.43641cm</Top>
-        <Left>0.38312cm</Left>
-        <Height>2.60229cm</Height>
-        <Width>17.41096cm</Width>
-        <ZIndex>2</ZIndex>
+        <Top>2.5cm</Top>
+        <Left>2cm</Left>
+        <Height>2.60228cm</Height>
+        <Width>17cm</Width>
+        <ZIndex>1</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -800,38 +752,32 @@
             <TextRuns>
               <TextRun>
                 <Value>Từ ngày </Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
+                <Style />
               </TextRun>
               <TextRun>
                 <Value>=Min(Fields!NgayHD.Value)</Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
+                <Style />
               </TextRun>
               <TextRun>
                 <Value> đến ngày </Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
+                <Style />
               </TextRun>
               <TextRun>
                 <Value>=Max(Fields!NgayHD.Value)</Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
+                <Style />
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox16</rd:DefaultName>
-        <Top>1.01394in</Top>
-        <Left>2.10449in</Left>
+        <Top>0.57in</Top>
+        <Left>2.5in</Left>
         <Height>0.25in</Height>
-        <Width>3.29167in</Width>
-        <ZIndex>3</ZIndex>
+        <Width>3.27in</Width>
+        <ZIndex>2</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -850,8 +796,71 @@
       </Border>
     </Style>
   </Body>
-  <Width>7.13054in</Width>
+  <Width>8.27in</Width>
   <Page>
+    <PageHeader>
+      <Height>0.69792in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Cửa hàng TuMen</Value>
+                  <Style>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>36 - Đường Nguyễn Khánh Toàn - Cầu Giấy - Hà Nội</Value>
+                  <Style>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>043.822299</Value>
+                  <Style>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Height>1.44943cm</Height>
+          <Width>9.08484cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
     <PageHeight>11.69in</PageHeight>
     <PageWidth>8.27in</PageWidth>
     <LeftMargin>0.5in</LeftMargin>

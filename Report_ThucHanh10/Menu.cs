@@ -20,13 +20,13 @@ namespace Report_ThucHanh10
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 newform = new Form1();
-            newform.Show();
+            newform.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 newform = new Form2();
-            newform.Show();
+            newform.ShowDialog();
         }
     }
 }
